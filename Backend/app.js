@@ -6,11 +6,9 @@ import boardRoutes from './routes/board.route.js';
 import cardRoutes from './routes/card.route.js';
 import listRoutes from './routes/list.route.js';
 
-// connectDB();
 
 const app = express();
 
-// Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
