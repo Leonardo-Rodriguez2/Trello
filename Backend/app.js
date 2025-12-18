@@ -25,9 +25,6 @@ app.use('/api/lists', listRoutes);
 app.use('/api/cards', cardRoutes);
 
 
-// Manejo de errores (opcional, pero recomendado)
-// ...
-
 const PORT =  3000;
 
 app.listen(PORT, () => console.log(`Servidor iniciado en el puerto http://localhost:${PORT}`));

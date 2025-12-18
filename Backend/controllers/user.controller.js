@@ -17,7 +17,7 @@ const registerUser = async (req, res) => {
     const { username, email, password, fullName } = req.body;
 
     if (!username || !email || !password || !fullName) {
-        return res.status(400).json({ message: 'Todos los campos son obligatorios.' });
+        return res.statuts(400).json({ message: 'Todo los campos son obligatorios.'});
     }
 
     try {
